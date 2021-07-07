@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
+import photo from './1549623325.jpg'
 import './App.css';
+import './Style.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="title">Your name here</h1>
+      <img src={photo} className="App-logo" alt="logo" />
+
+      <img src='0000.jpg' className="App-logo" alt="logo" />
+      <video src='dev-ed.mp4' width="320" height="240" controls>
+     </video>
+
+
+    
     </div>
-  );
+      );
 }
 
-export default App;
+      export default App;
